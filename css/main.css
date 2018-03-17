@@ -561,8 +561,8 @@ ul.sub-menu {
 }
 
 .animate-in .slider-hill {
-  -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
-  animation: bounceInDown 1000ms ease-in-out 200ms both;
+  -webkit-animation: fadeInRight 700ms ease-in-out 900ms both;
+  animation: fadeInRight 700ms ease-in-out 900ms both;
 }
 
 #home-slider .slider-house {
@@ -579,7 +579,7 @@ ul.sub-menu {
 #home-slider .slider-sun {
   position: absolute;
   right: 365px;
-  bottom: 100px;
+  bottom: 200px;
 }
 
 .animate-in .slider-sun {
@@ -589,13 +589,15 @@ ul.sub-menu {
 
 #home-slider .slider-birds1 {
   position: absolute;
-  right: 470px;
-  bottom: 75px;
+  right: 440px;
+  bottom: 0px;
+  width: 70px;
+  height: auto;
 }
 
 .animate-in .slider-birds1 {
-  -webkit-animation: fadeInLeft 500ms ease-in-out 1200ms both;
-  animation: fadeInLeft 500ms ease-in-out 1200ms both;
+  -webkit-animation: bounceInDown 1000ms ease-in-out 200ms both;
+  animation: bounceInDown 1000ms ease-in-out 200ms both;
 }
 
 #home-slider .slider-birds2 {
